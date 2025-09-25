@@ -1,0 +1,155 @@
+/* Configurações Globais (Para evitar barras de rolagem estranhas) */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+@font-face {
+    font-family: 'HarryPotter';
+    src: url(fonte/harry_p/HARRYP__.TTF) format('truetype');
+}
+
+/* Estilo do Cabeçalho */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #0c0c0c; /* Fundo escuro para contraste */
+    color: gold;
+}
+
+h1 {
+    font-family: 'HarryPotter', sans-serif;
+    font-size: 5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000; /* Sombra para dar profundidade */
+}
+
+body {
+    background-color: #121212; /* Um cinza escuro, agradável, estilo 'Dark Mode' */
+    color: #E0E0E0;
+}
+
+/* EFEITO PARALLAX */
+.parallax {
+    /* Define a altura da área de rolagem para ver o efeito */
+    min-height: 500px; 
+    
+    /* Centraliza e garante que a imagem cubra toda a div */
+    background-size: cover;
+    background-position: center;
+    
+    /* A PROPRIEDADE MÁGICA: Fixa a imagem no viewport */
+    background-attachment: fixed;
+    
+    /* Garante que o conteúdo (se houver) fique no meio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* === ESTILIZAÇÃO DAS SEÇÕES DE CONTEÚDO (LIVROS) === */
+.livro {
+    padding: 80px 20px;
+    background-color: #212121; /* Um cinza um pouco mais claro que o body */
+    text-align: center;
+}
+
+/* O título do livro deve ser de uma cor mágica e clara */
+.titulo-livro {
+    font-size: 2.2em;
+    color: #FFD700; 
+    margin-bottom: 40px;
+}
+
+/* Estilização da Citação */
+.citacao-magica {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(33, 33, 33, 0.9); 
+    
+    /* Mantenha a borda para o destaque */
+    border-left: 5px solid #A0522D; /* Marrom escuro (Sienna) para simular madeira ou pergaminho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra mais escura */
+}
+
+.texto-citacao {
+    font-size: 1.6em;
+    font-style: italic;
+    color: #F0F0F0; /* Texto claro */
+    margin-bottom: 15px;
+}
+
+/* Estilo do autor */
+.autor-citacao {
+    font-size: 1.1em;
+    color: #BDBDBD; /* Cinza claro para o autor */
+    margin-top: 10px;
+}
+
+/* === ATRIBUIÇÃO DAS IMAGENS === */
+
+.img-intro {
+    background-image: url('imagem/expressohogwards.jpg'); /* Sua imagem de fundo inicial */
+}
+
+.img-camara-secreta {
+    background-image: url('imagem/xadrezdebruxo.jpg');
+}
+
+.img-azkaban {
+    background-image: url('imagem/dementador.jpg');
+}
+
+.img-calice {
+    background-image: url('imagem/calice-de-fogo.jpg');
+}
+
+.img-fenix {
+    background-image: url('imagem/Marvolo-Ring.jpg');
+}
+
+.img-enigma {
+    background-image: url('imagem/arco.jpg');
+}
+
+.img-reliquias {
+    background-image: url('imagem/reliquias-da-morte.jpg');
+}
+
+
+/* Estilização básica do rodapé */
+footer {
+    background-color: #1a1a1a; /* Cor escura */
+    color: #aaaaaa; /* Cor clara para o texto */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8em; /* Fonte menor */
+}
+
+/* Centralizando e espaçando o conteúdo */
+.container-footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Dando destaque ao seu crédito */
+
+.desenvolvedor {
+    margin-bottom: 10px;
+    color: #ffffff; 
+}
+
+/* Links do GitHub */
+
+.github-link a {
+    color: #4CAF50; 
+    text-decoration: none;
+
+}
+.github-link a:hover {
+    text-decoration: underline;
+    color: #4ca8af;
+}
