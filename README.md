@@ -8,6 +8,9 @@ O principal objetivo técnico foi exercitar a criação de uma página de rolage
 Cada seção de texto apresenta uma citação marcante do livro, enquanto os divisores Parallax criam uma atmosfera imersiva e visualmente rica para a transição entre os volumes.
 O design utiliza uma paleta escura para capturar o clima sombrio e mágico do universo.
 
+
+[🔗 Acesse o Projeto Online](https://scrolling-magic.netlify.app/)
+
 ---
 
 ## Tecnologias Utilizadas
